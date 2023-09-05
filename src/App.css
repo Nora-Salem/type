@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  height: 100vh;
+}
+
+.section-1 {
+  background: #f2f2f2;
+}
+
+.section-2 {
+  background: teal;
+}
+
+.section-3 {
+  background: brown;
+}
+
+.container {
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.panel {
+  scroll-snap-align: start;
+  height: 100vh;
+}
